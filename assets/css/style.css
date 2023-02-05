@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titulo {
+    font-size: 2rem;
+    font-weight: 900;
+    color: crimson;
+}
+
+.btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all .5s;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: crimson;
+}
+
+.seccion {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+.banner {
+    height: max-content;
+}
+
+.banner img {
+    width: 90%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.container-btn {
+    display: flex;
+    justify-content: right;
+    padding: 1rem 2rem;
+}
+
+.caja{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #252a2e;
+    padding: 10px;
+    width: 95%;
+    border-left: 10px solid #1cb698;
+}
+
+.caja-nombre {
+    color: #1cb698;
+    font-weight: bold;
+}
+
+.caja-fecha {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .seccion {
+        display: flex;
+        height: auto;
+        width: 100vw;
+        padding: 2rem;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .container-btn{
+        justify-content: center;
+        padding: 0;
+    }
+   
+}

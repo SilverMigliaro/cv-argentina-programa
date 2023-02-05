@@ -1,0 +1,57 @@
+.habilidad {
+    height: 100vh;
+}
+
+.habilidad-container {
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.habilidad-titulo {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.habilidad-banner{
+    display: flex;
+    justify-content: right;
+}
+
+.habilidad-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.habilidad-caja span{
+    font-weight: 600;
+}
+
+.linea-progreso{
+    width: 100%;
+    background-color: lightgrey;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.valor-progreso{
+    background: linear-gradient(45deg, #083f34, #23dbb7);
+    border-radius: 8px;
+    height: 100%;
+    width: 1%;
+    color: transparent;
+}
+
+@media screen and (max-width: 768px){
+    .habilidad{
+        background: linear-gradient(to top, rgba(255, 255, 255, .5), rgba(255, 255, 255, 1)),
+        url("../images/skill-banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    }
+
+    .habilidad-banner{
+        display: none;
+    }
+}

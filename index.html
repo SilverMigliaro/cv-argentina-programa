@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--Estilos-->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/menu.css" />
+  <link rel="stylesheet" href="./assets/css/portada.css" />
+  <link rel="stylesheet" href="./assets/css/acerca.css  " />
+  <link rel="stylesheet" href="./assets/css/educacion.css" />
+  <link rel="stylesheet" href="./assets/css/experiencia.css" />
+  <link rel="stylesheet" href="./assets/css/habilidad.css" />
+  <link rel="stylesheet" href="./assets/css/contacto.css" />
+  <link rel="stylesheet" href="./assets/css/pie-pagina.css" />
+
+  <!--Scripts-->
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+  <script src="./assets/js/scripts.js"></script>
+
+  <!--Título-->
+  <title>Mi cv</title>
+</head>
+
+<body>
+
+  <!--Encabezado-->
+  <header class="encabezado">
+    <!--Logo-->
+    <div class="logo">
+      <h2>C<span>W</span></h2>
+    </div>
+    <!--Menú-->
+    <nav id="nav-menu">
+      <ul class="menu-lista">
+        <li class="menu-lista-item"><a href="#">home</a></li>
+        <li class="menu-lista-item"><a href="#acerca">acerca</a></li>
+        <li class="menu-lista-item"><a href="#educacion">formación</a></li>
+        <li class="menu-lista-item"><a href="#experiencias">experiencia</a></li>
+        <li class="menu-lista-item"><a href="#habilidades">habilidades</a></li>
+        <li class="menu-lista-item" id="menu-lista-item-contacto"><a href="#contacto">contacto</a></li>
+      </ul>
+    </nav>
+    <!--Botón barra responsivo-->
+    <div class="nav-responsive" id="nav-responsive">
+      <i class="fa fa-bars"></i>
+    </div>
+  </header>
+
+  <!--Contenido principal-->
+  <main>
+
+    <!--Sección:: Portada-->
+    <section class="portada">
+      <!--Panel portada:: contedor-->
+      <div class="portada-container">
+        <!--Panel portada:: banner-->
+        <div class="portada-banner">
+          <img src="./assets/images/perfil.png" alt="imagen perfil" />
+        </div>
+        <!--Título de la portada-->
+        <h1 class="portada-titulo">Hola soy <span>Charlie Warren</span></h1>
+        <!--Subtítulo de la portda-->
+        <h3 class="portada-subtitulo">Web developer</h3>
+        <!--Panel de redes sociales-->
+        <div class="portada-redes">
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-facebook-f"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-github"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!--Sección:: Acerca de -->
+    <section class="acerca seccion" id="acerca">
+      <!--Panel acerca:: banner-->
+      <div class="acerca-banner banner">
+        <img src="./assets/images/banner.jpg" alt="imagen de perfil banner" />
+      </div>
+
+      <!--Panel acerca:: contenedor-->
+      <div class="acerca-container container">
+        <!--Título de acerca de-->
+        <h2 class="acerca-titulo titulo">Acerca de mi:</h2>
+        <!--Descripción-->
+        <p class="acerca-descripcion">
+          <strong>Quien soy: </strong><br />
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae
+          dolorem atque, pariatur error aspernatur tempora autem provident
+          nam, recusandae minus facere est vitae animi assumenda debitis rem
+          voluptatum, dolores veniam!
+        </p>
+        <p class="acerca-descripcion">
+          <strong>Mis objetivos son: </strong><br />Lorem ipsum dolor
+          sit amet, consectetur adipisicing elit. Molestiae dolorem atque,
+          pariatur error aspernatur tempora autem provident nam, recusandae
+          minus facere est vitae animi assumenda debitis rem voluptatum,
+          dolores veniam!
+        </p>
+        <p class="acerca-descripcion">
+          <strong>Que puedo brindar: </strong><br />Lorem ipsum dolor
+          sit amet, consectetur adipisicing elit. Molestiae dolorem atque,
+          pariatur error aspernatur tempora autem provident nam, recusandae
+          minus facere est vitae animi assumenda debitis rem voluptatum,
+          dolores veniam!
+        </p>
+        <!--Botón para descargar cv-->
+        <div class="acerca-btn container-btn">
+          <a href="#" class="btn">Descargar CV</a>
+        </div>
+      </div>
+    </section>
+
+    <!--Sección:: Formación-->
+    <section class="educacion seccion" id="educacion">
+      <!--Panel formación:: contenedor-->
+      <div class="educacion-container container">
+        <!--Titulo de la sección formación-->
+        <h2 class="educacion-titulo titulo">Mi formación:</h2>
+        <!--Tarjeta que contine la información sobre estudios-->
+        <div class="educacion-caja caja">
+          <h4>Master en Ciencias de la Computación</h4>
+          <span class="caja-nombre">Nombre Universidad</span>
+          <span class="caja-fecha">2010 - 2013</span>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nesciunt, voluptas reprehenderit inventore
+            illum molestiae dolorum a facilis accusamus fugiat, dignissimos nobis numquam ducimus neque vel unde
+            consectetur dolore nemo.
+          </p>
+        </div>
+
+        <div class="educacion-caja caja">
+          <h4>Licencitura en Ciencias de la Computación</h4>
+          <span class="caja-nombre">Nombre Universidad</span>
+          <span class="caja-fecha">2007 - 2010</span>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nesciunt, voluptas reprehenderit inventore
+            illum molestiae dolorum a facilis accusamus fugiat, dignissimos nobis numquam ducimus neque vel unde
+            consectetur dolore nemo.
+          </p>
+        </div>
+
+        <div class="educacion-caja caja">
+          <h4>Técnico en Informática Personal y Profesional</h4>
+          <span class="caja-nombre">Nombre Universidad</span>
+          <span class="caja-fecha">1997 - 2007</span>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nesciunt, voluptas reprehenderit inventore
+            illum molestiae dolorum a facilis accusamus fugiat, dignissimos nobis numquam ducimus neque vel unde
+            consectetur dolore nemo.
+          </p>
+        </div>
+      </div>
+      <!--Panel formación:: banner-->
+      <div class="educacion-banner banner">
+        <img src="./assets/images/education-banner.jpg" alt="banner de educación" />
+      </div>
+
+    </section>
+
+    <!--Sección:: Experiencia-->
+    <section class="experiencia seccion" id="experiencias">
+      <!--Panel experiencia::banner-->
+      <div class="experiencia-banner banner">
+        <img src="./assets/images/work-banner.jpg" alt=""/>
+      </div>
+      <!--Panel experiencia:: contenedor-->
+      <div class="experiencia-container container">
+        <!--Título de experiencia-->
+        <h2 class="experiencia-titulo titulo">
+          Experiencia laboral:
+        </h2>
+        <!--Tarjeta que contine la información sobre experiencia laboral-->
+        <div class="experiencia-caja caja">
+          <h4>Senior UX Designer</h4>
+          <span class="caja-nombre">Nombre compa&ntilde;ía</span>
+          <span class="caja-fecha">2019 - Presente</span>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nesciunt, voluptas reprehenderit inventore
+            illum molestiae dolorum a facilis accusamus fugiat, dignissimos nobis numquam ducimus neque vel unde
+            consectetur dolore nemo.
+          </p>
+        </div>
+
+        <div class="experiencia-caja caja">
+          <h4>UX/UI Designer</h4>
+          <span class="caja-nombre">Nombre compa&ntilde;ía</span>
+          <span class="caja-fecha">2016 - 2019</span>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore dicta quaerat suscipit ex deserunt.
+            Omnis
+            nobis eum modi! Exercitationem veniam neque voluptas! Dolorum ipsam doloremque, consectetur ducimus
+            suscipit
+            reiciendis a!
+          </p>
+        </div>
+
+        <div class="experiencia-caja caja">
+          <h4>Junior UX Designer</h4>
+          <span class="caja-nombre">Nombre compa&ntilde;ía</span>
+          <span class="caja-fecha">2014 - 2016</span>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et fugiat enim, nemo praesentium repellat
+            assumenda neque sunt quisquam dolorem, placeat alias eaque! Pariatur consequatur natus labore molestiae
+            magnam enim architecto?
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!--Sección:: Habilidades-->
+    <section class="habilidad seccion" id="habilidades">
+      <!--Panel habilidad :: contenedor-->
+      <div class="habilidad-container  container">
+        <!--Título de la sección habilidades-->
+        <h2 class="habilidad-titulo titulo">
+          Habildades profesionales
+        </h2>
+        <!--Tarjeta que contiene una habilidad-->
+        <div class="habilidad-caja">
+          <span><i class="fab fa-html5" style="color:orange;"></i> HTML</span>
+          <div class="linea-progreso">
+            <div class="valor-progreso">90</div>
+          </div>
+        </div>
+
+        <div class="habilidad-caja">
+          <span><i class="fab fa-css3-alt" style="color:blue;"></i> CSS</span>
+          <div class="linea-progreso">
+            <div class="valor-progreso">80</div>
+          </div>
+        </div>
+
+        <div class="habilidad-caja">
+          <span><i class="fab fa-js" style="color:yellow;"></i> Javascript</span>
+          <div class="linea-progreso">
+            <div class="valor-progreso">80</div>
+          </div>
+        </div>
+
+        <div class="habilidad-caja">
+          <span><i class="fab fa-node-js" style="color:green;"></i> NodeJS</span>
+          <div class="linea-progreso">
+            <div class="valor-progreso">60</div>
+          </div>
+        </div>
+
+        <div class="habilidad-caja">
+          <span><i class="fab fa-react" style="color:cornflowerblue;"></i> React</span>
+          <div class="linea-progreso">
+            <div class="valor-progreso">50</div>
+          </div>
+        </div>
+
+        <div class="habilidad-caja">
+          <span><i class="fab fa-vuejs" style="color:limegreen;"></i> VueJS</span>
+          <div class="linea-progreso">
+            <div class="valor-progreso">30</div>
+          </div>
+        </div>
+
+        <span>Para visualizar mas habilidades, pulsa abajo</span>
+        <div class="habilidad-btn container-btn">
+          <a href="#" class="btn">Ver habilidades</a>
+        </div>
+
+      </div>
+      <!--Panel habilidad:: banner-->
+      <div class="habilidad-banner banner">
+        <img src="./assets/images/skill-banner.jpg" alt="banner sección de habilidades" />
+      </div>
+
+    </section>
+
+    <!--Sección:: Contacto-->
+    <section class="contacto seccion" id="contacto">
+      <!--Panel contacto :: banner-->
+      <div class="contacto-banner banner">
+        <img src="./assets/images/contact-banner.jpg" alt="banner de la sección contacto" />
+      </div>
+      <!--Panel contacto :: container-->
+      <div class="contacto-container container">
+        <!--Título de la sección contacto-->
+        <h2 class="contacto-titulo titulo">Contacto</h2>
+        <!--Formulario-->
+        <form action="#" class="contacto-formulario" id="contacto-formulario">
+          <!--Contacto::Nombre-->
+          <label for="nombre" class="contacto-label">Nombre</label>
+          <input type="text" class="contacto-input" name="nombre" id="nombre" placeholder="Nombre" />
+
+          <!--Contacto::Apellido-->
+          <label for="apellido" class="contacto-label">Apellido</label>
+          <input type="text" class="contacto-input" name="apellido" id="apellido" placeholder="Apellido" />
+
+          <!--Contacto::Email-->
+          <label for="email" class="contacto-label">Email</label>
+          <input type="email" class="contacto-input" name="email" id="email" placeholder="Email" />
+
+          <!--Contacto::Asunto-->
+          <label for="asunto" class="contacto-label">Asunto</label>
+          <input type="text" class="contacto-input" name="asunto" id="asunto" placeholder="Asunto" />
+
+          <!--Contacto::Mensaje-->
+          <label for="mensaje" class="contacto-label"></label>
+          <textarea class="contacto-mensaje" name="mensaje" id="mensaje" rows="6"
+            placeholder="Ingrese mensaje aqui..."></textarea>
+          <!--Contacto::Submit-->
+          <button type="submit" class="contacto-btn">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!--Pie de página-->
+  <footer class="pie-pagina">
+    <h2 class="footer-titulo">Charlie Warren</h2>
+    <span class="footer-subtitulo">Frontend Developer</span>
+    <span class="footer-fecha"><i class="far fa-copyright"></i> 2023</span>
+  </footer>
+</body>
+
+</html>

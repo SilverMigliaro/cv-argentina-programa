@@ -1,0 +1,27 @@
+.educacion-banner {
+    display: flex;
+    justify-content: right;
+}
+
+.educacion-container {
+    padding: 2rem;
+}
+
+.educacion-titulo {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .educacion {
+        background: linear-gradient(to top, rgba(255, 255, 255, .5), rgba(255, 255, 255, 1)),
+            url("../images/education-banner.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .educacion-banner {
+        display: none;
+    }
+}

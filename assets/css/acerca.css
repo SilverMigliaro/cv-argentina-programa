@@ -1,0 +1,10 @@
+@media screen and (max-width:768px){
+    .acerca {
+        background: linear-gradient(to top, rgba(255, 255, 255, .5), rgba(255, 255, 255, 1)),
+            url("../images/banner.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
